@@ -1,559 +1,346 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777;
-    line-height: 34px;
-    background: url("../images/concrete_seamless.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  line-height: 34px;
+  background: url("../images/concrete_seamless.png");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 /*general*/
 
 .container {
-    clear: both;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
 }
 
 h1,
 h2,
 h3,
 p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-weight: 700;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: 700;
 }
 
 h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #ddd;
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
 }
 
 h2,
 h3 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 
 /*header*/
 
 #masthead {
-    position: fixed;
-    z-index: 99;
-    margin: 0 0 30px;
-    overflow: auto;
-    width: 100%;
-    color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc;
+  position: fixed;
+  z-index: 99;
+  margin: 0 0 30px;
+  overflow: auto;
+  width: 100%;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
 }
 
 #logo {
-    width: 250px;
-    height: 90px;
-    float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    line-height: 90px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 30px;
-    text-decoration: none;
-    background: #4aaaa5;
+  width: 250px;
+  height: 90px;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
 nav {
-    float: right;
-    margin-top: 25px;
+  float: right;
+  margin-top: 25px;
 }
 
 nav a {
-    display: inline-block;
-    margin-left: 15px;
-    padding-left: 15px;
-    color: #999;
-    text-decoration: none;
-    line-height: 18px;
-    border-left: 1px solid #efefef;
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  color: #999;
+  text-decoration: none;
+  line-height: 18px;
+  border-left: 1px solid #efefef;
 }
 
 nav a:first-child {
-    border-left: 0 none;
+  border-left: 0 none;
 }
 
 
 /*footer*/
 
 footer {
-    padding: 30px 0;
-    clear: both;
-    color: #fff;
-    color: #ccc;
-    font-size: 12px;
-    text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
+  padding: 30px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
 }
 
 
 /*sidebar*/
 
 .sidebar {
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    float: right;
-    margin-bottom: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  float: right;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
 h3,
 .sidebar h2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
 }
 
 .social {
-    width: 62px;
-    height: 62px;
-    margin-top: 8px;
-    margin-right: 5px;
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
 }
 
 .social:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 
 /*main*/
 
 #main-container {
-    padding-top: 130px;
+  padding-top: 130px;
 }
 
 .main-section {
-    padding: 30px;
-    margin: 0 0 40px 0;
-    width: 100%;
-    max-width: 650px;
-    float: left;
-    background: #fff;
-    border: 1px solid #ddd;
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
 
 /*portfolio page*/
 
 .work {
-    position: relative;
-    width: 274px;
-    overflow: auto;
-    float: left;
-    margin: 20px 0 25px;
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
 }
 
 .work:nth-child(even) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: .8;
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
 }
 
 .work h3 {
-    position: absolute;
-    bottom: 20px;
-    margin-bottom: 0;
-    padding: 15px;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    line-height: 30px;
-    font-weight: 300;
-    background: #4aaaa5;
-    border-bottom: 0;
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
 
 .auth-image {
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-    float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
 }
 
 
 /*contact page*/
 
 #contact-form ul {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #contact-form li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 label,
 input[type=text],
 input[type=email],
 textarea {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
 }
 
 textarea {
-    height: 200px;
+  height: 200px;
 }
 
 input[type=submit] {
-    padding: 10px 30px;
-    color: #fff;
-    font-size: 18px;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
 
 @media screen and (max-width: 640px) {
     body {}
     #logo {
         width: 500px;
+        float: left;
+        margin: 30px;
         padding: 0px, 30px, 0px, 30px;
         height: 100px;
     }
-    .container {
-        width: 500px;
-        padding: 10px, 30px, 5px, 30px;
+    #main-container {
+        padding: 20px;
     }
     nav {
         width: 500px;
-        text-align: center;
-        background-color: white;
-        padding-top: 50px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin left: 0px;
-    }
-    .name {
-        width: 500px;
-        padding-top: 5px;
-        padding-bottom: 20px;
-    }
-    #main-container {
-        padding: 0;
-        margin: 0;
-    }
-    .main-section {
-        border: solid;
-        border-width: 3px;
-        margin-right: 10px;
-        margin-bottom: 5px;
-        margin-left: 70px;
         float: left;
-        width: 500px;
+        margin: 0px;
+        padding: 0px, 30px, 0px, 30px;
         text-align: center;
     }
     .sidebar {
-        border: solid;
-        border-width: 3px;
-        margin-right: 10px;
-        margin-bottom: 5px;
-        margin-left: 70px;
+        width: 500px;
         float: left;
-        width: 500px;
-        text-align: center;
-    }
-    footer {
-        width: 500px;
-        text-align: center;
-        background-color: #666666;
-        padding-top: 2px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 70px;
-    }
-    h1 {}
-    a {}
-    .paragraph {}
-}
-
-
-/*body {
-    background-color: #dddddd;
-    width: 100%;
-    color: #cccccc;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: auto;
-    text-align: left;
-}
-
-.wrapper {
-    background-color: #ffffff;
-    margin: auto;
-    width: 960px;
-    height: 900px;
-    padding: 10px;
-}
-
-header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-bottom: 20px;
-    padding: 30px, 0px;
-    color: black;
-    background-color: #ffffff;
-    width: 100%;
-    float: left;
-    border-bottom: solid;
-    border-bottom-width: 5px;
-    border-color: #cccccc;
-    font-size: 20px;
-    text-align: center
-}
-
-
-}
-#dennispic {
-    float: left: ;
-    margin: 0 0 10px 10px;
-    cursor: pointer;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-.paragraph {
-    float: left: ;
-    margin: 0 0 10px 10px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-.name {
-    background-color: #4aaaa5;
-    float: left;
-    top: 0px;
-    width: 300px;
-    height: 70px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-}
-.icons {
-    position: relative;
-    float: right;
-    padding: 10px;
-    width: 250px;
-}
-.contentContainer {
-    border: solid;
-    border-width: 3px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    float: left;
-    width: 600px;
-}
-.contactform {
-    padding: 5px;
-    position: relative;
-    margin: 0px, 10px, 10px, 0;
-    float: left;
-    width: 100%;
-    height: 700px;
-}
-.nav {
-    background-color: #ffffff;
-    text-align: right;
-    height: 70px;
-    padding-top: 30px;
-}
-.aside {
-    float: right;
-    border: solid;
-    border-width: 3px;
-}
-.portfoliopics {
-    padding: 5px;
-    position: relative;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    float: left;
-    width: 400px;
-}
-#portfolio1 {
-    cursor: pointer;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    height: 200px;
-    margin-top: 0px margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    position: relative;
-    width: 200px;
-    float: left;
-}
-#portfolio2 {
-    clear: left;
-    cursor: pointer;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    height: 200px;
-    margin-top: 0px margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    position: relative;
-    width: 200px;
-    float: left;
-}
-#portfolio3 {
-    clear: left;
-    cursor: pointer;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    height: 100px;
-    margin-top: 0px margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    position: relative;
-    width: 100px;
-    float: left;
-}
-#portfolio4 {
-    clear: left;
-    float: left;
-    cursor: pointer;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 240px;
-    padding-bottom: 5px;
-    height: 100px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    position: relative;
-    width: 100px;
-}
-footer {
-    background-color: #666666;
-    height: 30px;
-    width: 100%;
-    float: left;
-    border-top: solid;
-    margin-bottom: 1px;
-    border-top: : solid;
-    border-top-width: 5px;
-    border-color: #cccccc;
-    text-align: center;
-    margin-top: 180px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-@media screen and (max-width: 640px) {
-    body {}
-    
-    header {
-        width: 500px;
+        margin: 0px;
         padding: 0px, 30px, 0px, 30px;
-        height: 100px;
     }
-    
-    .wrapper {
-        width: 500px;
-        padding: 10px, 30px, 5px, 30px;
-    }
-    
-    .nav {
-        width: 500px;
-        text-align: center;
-        background-color: yellow;
-        padding-top: 50px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin left: 0px;
-    }
-    
-    .name {
-        width: 500px;
-        padding-top: 5px;
-        padding-bottom: 20px;
-    }
-    
-    .contentContainer {
-        border: solid;
-        border-width: 3px;
-        margin-right: 10px;
-        margin-bottom: 5px;
-        margin-left: 0px;
+    .main-section {
+        padding-top: 20px padding-left: 100px;
+        margin: 50px;
+        width: 100%;
+        max-width: 500px;
         float: left;
-        width: 500px;
+        background: #fff;
+        border: 1px solid #ddd;
     }
-    
-    .aside {
-        width: 500px;
-        text-align: left;
-        background-color: #ffffff;
-        border: solid;
-        border-width: 3px;
-        margin-right: 10px;
-        margin-bottom: 5px;
-        margin-left: 0px;
-        float: left;
-    }
-    
-    footer {
-        width: 500px;
-        text-align: center;
-        background-color: #666666;
-        padding-top: 2px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-    
-    h1 {}
-    
-    a {}
-    
-    .paragraph {}
 }
-*/
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    #logo {
+        width: 300px;
+        float: left;
+        height: 80px;
+        padding: 5px;
+    }
+    #main-container {
+        padding: 20px;
+    }
+    nav {
+      width: 100%;
+      max-width: 300px;
+      float: right;
+      margin: 0px;
+      padding-top: 25px;
+      text-align: center;
+    }
+    .main-section {
+      padding-left: 30px;
+      padding-top: 85px;
+      padding-bottom: 5px
+      margin: 19px;
+      width: 100%;
+      max-width: 700px;
+      float: left;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+    #masthead {
+    position: fixed;
+    z-index: 99;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 90px;
+    overflow: auto;
+    max-width: 700px;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 2px;
+}
+.container{
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 767px;
+}
+  .sidebar {
+    padding-top: : 5px;
+    padding-left: 30px;
+    padding-bottom: 5px
+    width: 100%;
+    max-width: 700px;
+    float: left;
+    
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+}
+
+
