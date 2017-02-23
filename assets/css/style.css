@@ -252,7 +252,7 @@ input[type=submit] {
         float: left;
         margin: 30px;
         padding: 0px, 30px, 0px, 30px;
-        height: 100px;
+        height: 90px;
     }
     #main-container {
         padding: 20px;
@@ -265,19 +265,33 @@ input[type=submit] {
         text-align: center;
     }
     .sidebar {
-        width: 500px;
+        max-width: 600px;
+        width: 100%;
         float: left;
-        margin: 0px;
-        padding: 0px, 30px, 0px, 30px;
+        margin-bottom: 10px;
+        padding: 30px;
+        margin-top: -30px;
+
     }
     .main-section {
-        padding-top: 20px padding-left: 100px;
-        margin: 50px;
-        width: 100%;
-        max-width: 500px;
+        max-width: 600px;
         float: left;
         background: #fff;
         border: 1px solid #ddd;
+        padding: 30px;
+        width: 100%;
+        margin-top: 190px;
+
+    }
+    .masthead{
+      position: fixed;
+      z-index: 99;
+      overflow: auto;
+      margin-left: 24px;
+      float: left;
+      max-width: 600px;
+      width: 100%;
+      padding: 5px;
     }
 }
 
@@ -302,18 +316,20 @@ input[type=submit] {
     .main-section {
       padding-left: 30px;
       padding-top: 85px;
-      padding-bottom: 5px
-      margin: 19px;
+      margin-top: 90px;
+      margin-bottom: 10px;
       width: 100%;
       max-width: 700px;
       float: left;
       background: #fff;
       border: 1px solid #ddd;
+      padding: 30px;
     }
+
     #masthead {
     position: fixed;
     z-index: 99;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 0px;
     height: 90px;
     overflow: auto;
@@ -336,11 +352,27 @@ input[type=submit] {
     width: 100%;
     max-width: 700px;
     float: left;
-    
     background: #fff;
     border: 1px solid #ddd;
 }
 
-}
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  .masthead{
+    max-width: 980px;
+    width: 100%;
+    padding: 5px;
+  }
 
+  .sidebar{
+    margin-right: 5px;
+  }
+
+.main-section{
+  margin-left: 5px;
+}
+footer{
+  max-width: 980px;
+  width: 100%;
+
+}
 
